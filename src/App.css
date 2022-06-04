@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+body {
+  /* background-image: url("images/judiciary-background.jpg"); */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.darkShade {
+    background-color: rgba(19, 18, 18, 0.7);
+}
+.jms-img-fluid{
+  width: 100%;
+  height: 15rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Court & Court Rules */
+.jms-h{
+  height: 40rem;
+}
+.jms-text-justify{
+  text-align: justify;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Sign Up Form */
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

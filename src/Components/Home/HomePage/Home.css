@@ -1,0 +1,10 @@
+body {
+  background-image: url("../../images/judiciary-background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.darkShade {
+    background-color: rgba(19, 18, 18, 0.7);
+}
